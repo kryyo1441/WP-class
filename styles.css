@@ -1,8 +1,9 @@
 :root {
-  --green-900: #053018;
-  --green-700: #0f7a4b;
-  --green-600: #198754;
-  --green-400: #66c18c;
+  --pink-900: #8B0A50;  /* dark pink for text */
+  --pink-700: #C71585;  /* main pink */
+  --pink-600: #FF69B4;  /* lighter pink / gradient */
+  --pink-400: #FFB6C1;  /* lightest pink */
+  --pink-accent: #ffe0f0;
   --accent: #e6fbf0;
   --bg: #f6fbf9;
   --surface: #ffffff;
@@ -72,14 +73,16 @@ textarea { resize: vertical; min-height:100px; }
 }
 
 .btn-primary, input[type="submit"] {
-  background: linear-gradient(180deg, var(--green-600), var(--green-700));
+  background: linear-gradient(180deg, var(--pink-600), var(--pink-700));
   color: #fff;
-  box-shadow: 0 10px 24px rgba(14,94,56,0.12);
+  box-shadow: 0 10px 24px rgba(199,21,133,0.12); /* pink shadow */
 }
+
 .btn-primary:hover, input[type="submit"]:hover {
+  background: linear-gradient(180deg, var(--pink-700), var(--pink-900));
   transform: translateY(-3px);
-  background: linear-gradient(180deg, #1f8e56, #0b6b45);
 }
+
 
 .btn-ghost, input[type="reset"] {
   background: transparent;
