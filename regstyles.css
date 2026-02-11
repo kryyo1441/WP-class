@@ -1,0 +1,220 @@
+/* ===============================
+   BASIC RESET
+=================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ===============================
+   BODY
+=================================*/
+body {
+    font-family: Arial, sans-serif;
+
+    background:
+        linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+        url("https://i.postimg.cc/RhrM9VHT/Gemini-Generated-Image-rkfw2jrkfw2jrkfw.png");
+
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    color: white;
+}
+
+/* ===============================
+   MAIN WRAPPER
+=================================*/
+.main-wrapper {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+/* ===============================
+   CARD / CONTAINER
+=================================*/
+.card {
+    width: 100%;
+    max-width: 700px;
+
+    background-image: url("https://i.postimg.cc/6QS5QhZy/Gemini-Generated-Image-r44kl1r44kl1r44k.png");
+    background-size: cover;
+    background-position: center;
+
+    background-color: rgba(21, 26, 53, 0.95);
+    background-blend-mode: darken;
+
+    border: 2px solid #8b5cf6;
+    border-radius: 12px;
+
+    padding: 30px;
+    margin: 20px;
+
+    transition: 0.3s ease;
+}
+
+/* Hover effect on card */
+.card:hover {
+    box-shadow: 0 0 20px rgba(139, 92, 246, 0.6);
+    transform: translateY(-5px);
+}
+
+/* ===============================
+   HEADER
+=================================*/
+.header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 100%;
+    border-radius: 8px;
+    margin-bottom: 15px;
+    border: 2px solid white;
+    transition: 0.3s ease;
+}
+
+/* Image hover */
+.header img:hover {
+    transform: scale(1.02);
+}
+
+/* ===============================
+   HEADINGS
+=================================*/
+h1 {
+    color: #ec4899;
+    margin-bottom: 5px;
+}
+
+h2 {
+    color: #8b5cf6;
+    margin: 15px 0 10px 0;
+}
+
+/* ===============================
+   TEXT
+=================================*/
+p {
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    margin-bottom: 15px;
+}
+
+ul li {
+    margin-bottom: 6px;
+}
+
+/* ===============================
+   FORM
+=================================*/
+label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Input & Select */
+input,
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+
+    border: 1px solid #ccc;
+    border-radius: 6px;
+
+    font-size: 14px;
+
+    transition: 0.3s ease;
+}
+
+/* Focus effect */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #8b5cf6;
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.6);
+}
+
+/* Radio & Checkbox spacing */
+.radio-group,
+.checkbox-group {
+    margin: 10px 0;
+}
+
+/* ===============================
+   BUTTONS
+=================================*/
+.button-group {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+/* Submit button */
+input[type="submit"] {
+    flex: 1;
+    background-color: #8b5cf6;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #6d28d9;
+    transform: scale(1.05);
+}
+
+/* Reset button */
+input[type="reset"] {
+    flex: 1;
+    background-color: #ec4899;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: 0.3s ease;
+}
+
+input[type="reset"]:hover {
+    background-color: #be185d;
+    transform: scale(1.05);
+}
+
+/* ===============================
+   LINKS
+=================================*/
+a {
+    color: #8b5cf6;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+a:hover {
+    color: #ec4899;
+    text-decoration: underline;
+}
+
+/* ===============================
+   FOOTER
+=================================*/
+.footer-links {
+    text-align: center;
+    margin-top: 15px;
+    font-size: 14px;
+}
